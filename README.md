@@ -8,12 +8,12 @@
 
 本书是一本面向初学者和进阶用户的 Claude 完整学习指南。我们将系统性地介绍 Claude 的核心能力体系，包括：
 
-- **提示工程（Prompt Engineering）**：与 Claude 高效沟通的艺术
-- **工具使用（Tool Use）**：让 Claude 调用外部 API 和服务
-- **计算机操控（Computer Use）**：Claude 自主操作桌面环境
-- **模型上下文协议（MCP）**：连接 Claude 与外部世界的标准接口
-- **Skills 系统**：可复用的定制化工作流
-- **代码执行与 Agentic Coding**：Claude 作为自主编程助手
+- **[提示工程（Prompt Engineering）](02_prompt/README.md)**：与 Claude 高效沟通的艺术
+- **[工具使用（Tool Use）](03_tools/README.md)**：让 Claude 调用外部 API 和服务
+- **[模型上下文协议（MCP）](04_mcp/README.md)**：连接 Claude 与外部世界的标准接口
+- **[计算机操控（Computer Use）](05_computer_use/README.md)**：Claude 自主操作桌面环境
+- **[Skills 系统](06_skills/README.md)**：可复用的定制化工作流
+- **[代码执行与 Agentic Coding](07_coding/README.md)**：Claude 作为自主编程助手
 
 本书基于 2024-2025 年 Claude 模型的最新演进（包括 Claude 3.5 Sonnet、Claude 4 Opus、Claude 4.5 Sonnet 等），提供经过验证的最佳实践。
 
@@ -100,4 +100,4 @@
 
 点击 [目录](SUMMARY.md)，或从 [第一章：认识 Claude](01_intro/README.md) 开始你的学习之旅。
 
-> 💡 **提示**：建议边阅读边实践。每章都提供可运行的代码示例，确保你拥有 [Claude API](https://claude.com/platform/api) 访问权限以获得最佳学习体验。
+> 💡 **提示**：建议边阅读边实践。每章都提供可运行的代码示例，确保你拥有 [Claude](https://claude.ai) 访问权限以获得最佳学习体验。
