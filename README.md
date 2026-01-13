@@ -17,6 +17,8 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 
 本书基于最新的Claude 模型（包括 Claude 3.5 Sonnet、Claude 4 Opus、Claude 4.5 Sonnet 等），提供经过验证的最佳实践。
 
+**学习永无止境。** AI 领域每个月都会发生翻天覆地的变化。保持好奇心，动手实践！
+
 ---
 
 ## 目标读者
@@ -32,8 +34,8 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 | **Claude 用户** | 提升日常使用效率，解锁高级功能 |
 
 **前置知识要求**：
-- 基础编程经验（Python/JavaScript 优先，但非必需）
-- 对大语言模型有初步了解
+- 基础计算机经验
+- 对大语言模型有初步了解（但非必需）
 - 能够访问 Claude（[claude.ai](https://claude.ai) 或 [API](https://claude.com/platform/api)）
 
 ---
