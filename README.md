@@ -1,6 +1,8 @@
 # Claude 技术指南
 
 > 从零开始，系统掌握 Anthropic Claude 的核心能力与最佳实践
+> 
+> **当前版本**: v1.0.0
 
 ![Claude Guide Hero](_images/gitbook.png)
 
