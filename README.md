@@ -1,5 +1,7 @@
 # Claude 技术指南
 
+![Claude Guide Hero](_images/gitbook.png)
+
 > 从零开始，系统掌握 Anthropic Claude 的核心能力与最佳实践
 
 ---
