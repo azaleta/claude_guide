@@ -1,16 +1,24 @@
 # Claude 技术指南
 
-> 从零开始，系统掌握 Anthropic Claude 的核心能力与最佳实践
-> 
-> **当前版本**: v1.0.0
+[![License](https://img.shields.io/github/license/yeasy/claude_guide)](LICENSE)
+[![GitHub stars](https://img.shields.io/github/stars/yeasy/claude_guide)](https://github.com/yeasy/claude_guide/stargazers)
+[![GitHub issues](https://img.shields.io/github/issues/yeasy/claude_guide)](https://github.com/yeasy/claude_guide/issues)
+[![GitHub pull requests](https://img.shields.io/github/issues-pr/yeasy/claude_guide)](https://github.com/yeasy/claude_guide/pulls)
+[![GitHub last commit](https://img.shields.io/github/last-commit/yeasy/claude_guide)](https://github.com/yeasy/claude_guide/commits/master)
 
-![Claude Guide Hero](_images/gitbook.png)
+> **从零开始，系统掌握 Anthropic Claude 的核心能力与最佳实践**
+> 
+> **当前版本**: v1.1.0
+
+![Claude Guide in Gitbook](_images/gitbook.png)
 
 ---
 
-## 这本书是关于什么的？
+## 📖 关于本书 | About
 
-Claude 是目前业界最先进的生产环境大语言模型之一。本书是一本面向初学者和进阶用户的 Claude 完整学习指南。全书将系统性地介绍 Claude 的核心能力体系，包括：
+**Claude** 是目前业界最先进的生产环境大语言模型之一。本书是一本面向初学者和进阶用户的 Claude 完整学习指南，旨在帮助读者深入理解并掌握这一强大的 AI 工具。
+
+全书将系统性地介绍 Claude 的核心能力体系，包括：
 
 - **[提示工程（Prompt Engineering）](02_prompt/README.md)**：与 Claude 高效沟通的艺术
 - **[工具使用（Tool Use）](03_tools/README.md)**：让 Claude 调用外部 API 和服务
@@ -19,15 +27,11 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 - **[Skills 系统](06_skills/README.md)**：可复用的定制化工作流
 - **[代码执行与 Agentic Coding](07_coding/README.md)**：Claude 作为自主编程助手
 
-本书基于最新的Claude 模型（包括 Claude 3.5 Sonnet、Claude 4 Opus、Claude 4.5 Sonnet 等），提供经过验证的最佳实践。
-
-**学习永无止境。** AI 领域每个月都会发生翻天覆地的变化。保持好奇心，动手实践！
+本书基于最新的 **Claude 3.5 / 4.5 Sonnet**、**Claude 4.5 Opus** 及 **Claude 3.5 Haiku** 模型，提供经过验证的最佳实践。
 
 ---
 
-## 目标读者
-
-本书适合以下人群：
+## 👥 目标读者 | Target Audience
 
 | 读者类型 | 你将获得什么 |
 |---------|-------------|
@@ -38,15 +42,39 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 | **Claude 用户** | 提升日常使用效率，解锁高级功能 |
 
 **前置知识要求**：
-- 基础计算机经验
-- 对大语言模型有初步了解（但非必需）
-- 能够访问 Claude（[claude.ai](https://claude.ai) 或 [API](https://claude.com/platform/api)）
+* 基础计算机操作经验
+* 对大语言模型有初步了解（非必需）
+* 能够访问 Claude（[claude.ai](https://claude.ai) 或 [API](https://claude.com/platform/api)）
 
 ---
 
-## 你将学到什么
+## 🚀 快速开始 | Getting Started
 
-完成本书学习后，你将能够：
+### 在线阅读
+
+👉 **[在线阅读 (GitBook)](https://yeasy.gitbook.io/claude_guide/)**
+
+### 本地阅读
+
+本书使用 [HonKit](https://github.com/honkit/honkit) 构建。
+
+```bash
+# 1. 克隆仓库
+git clone https://github.com/yeasy/claude_guide.git
+cd claude_guide
+
+# 2. 安装依赖
+npm install
+
+# 3. 启动本地服务器
+npx honkit serve
+```
+
+启动后，访问 `http://localhost:4000` 即可阅读。
+
+---
+
+## 📚 内容大纲 | Contents
 
 ### 🎯 基础能力
 - [ ] 理解 Claude 的能力矩阵与模型选择策略
@@ -67,12 +95,7 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 - [ ] 优化 Token 使用与成本控制
 - [ ] 部署生产级 Claude 应用架构
 
----
-
-## 本书结构
-
-本书采用渐进式学习路径：
-
+### 目录结构
 ```
 第一部分：基础篇
 ├── Claude 概览与模型选择
@@ -94,16 +117,29 @@ Claude 是目前业界最先进的生产环境大语言模型之一。本书是�
 └── 安全与伦理考量
 ```
 
----
-
-## 关于本书
-
-本书基于 Anthropic 官方文档、开发者社区最佳实践及行业案例整理编撰，力求内容准确、实用、包括最新的特性。主要面向 Claude 3.5 Sonnet / Claude 4 系列 / Claude 4.5 系列模型。
+> [点击查看详细目录](SUMMARY.md)
 
 ---
 
-## 开始阅读
+## 🤝 贡献 | Contributing
 
-点击 [目录](SUMMARY.md)，或从 [第一章：认识 Claude](01_intro/README.md) 开始你的学习之旅。[使用 Gitbook 阅读](https://yeasy.gitbook.io/claude_guide/)。
+欢迎任何形式的贡献！无论是纠正错别字、补充新内容，还是分享你的实践经验。
 
-> 💡 **提示**：建议边阅读边实践。每章都提供可运行的代码示例，确保你拥有 [Claude](https://claude.ai) 访问权限以获得最佳学习体验。
+1. Fork 本仓库
+2. 创建你的特性分支 (`git checkout -b feature/AmazingFeature`)
+3. 提交你的修改 (`git commit -m 'Add some AmazingFeature'`)
+4. 推送到分支 (`git push origin feature/AmazingFeature`)
+5. 开启一个 Pull Request
+
+---
+
+## 📜 协议 | License
+
+本书内容遵循 [Create Commons Attribution-NonCommercial-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-nc-sa/4.0/) 协议。
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=yeasy/claude_guide&type=Date)](https://star-history.com/#yeasy/claude_guide&Date)
+
